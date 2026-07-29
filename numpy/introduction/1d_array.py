@@ -1,4 +1,4 @@
-# one dimensional array
+# one dimensional array = which has only one row eg: [1,2,3]
 
 import numpy as np
 

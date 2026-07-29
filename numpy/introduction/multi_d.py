@@ -1,4 +1,4 @@
-# Multi-dimensional array
+# Multi-dimensional array = which has 3 or more than 3 dimensions
 # things like matrix
 
 import numpy as np
