@@ -1,4 +1,4 @@
-# two dimensional array
+# two dimensional array = which has row/s and column/s  eg: roes * columns
 
 import numpy as np
 
