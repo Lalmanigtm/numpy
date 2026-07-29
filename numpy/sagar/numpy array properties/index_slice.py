@@ -20,12 +20,19 @@ array[row, column] for 2d or more d array
 # Extracting subset of Data
 # array[start:stop:step]   start = indexing number || stop = end = indexing number and excluded.  || step default value is 1
 
+# import numpy as np
+
+# arr = np.array([1,2,3,4,5,6,7])
+
+# print(arr[1:5]) # index 1 to 4
+# print(arr[:5]) # index 0 to 4
+# print(arr[1:5:2]) # index 1 to 4 with step 2
+# print(arr[::5]) # index 1 to 4
+# print(arr[::-1]) # index 1 to 4
+
+# <--------- Fancy Indexing = selecting multiple elements at once------------------>
 import numpy as np
 
 arr = np.array([1,2,3,4,5,6,7])
 
-print(arr[1:5]) # index 1 to 4
-print(arr[:5]) # index 0 to 4
-print(arr[1:5:2]) # index 1 to 4 with step 2
-print(arr[::5]) # index 1 to 4
-print(arr[::-1]) # index 1 to 4
+print(arr[0,2,5])
