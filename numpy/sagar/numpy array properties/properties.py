@@ -24,7 +24,18 @@
 
 # dtype = represent the datatype of a elements like string, integer, float,....all
 
-import numpy as np
+# import numpy as np
 
-arr_1d = np.array([1.0,2])
-print(arr_1d.dtype) 
+# arr_1d = np.array([1.0,2])
+# print(arr_1d.dtype) 
+
+# astype = convert one datatype to another
+# import numpy as np
+
+# arr = np.array([1.3,2.8,5])
+# print(arr)
+# print(arr.dtype)
+
+# int_arr = arr.astype(int)
+# print(int_arr)
+# print(int_arr.dtype)
