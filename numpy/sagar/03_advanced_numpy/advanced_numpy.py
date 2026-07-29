@@ -73,11 +73,38 @@ np.delete(array, index, axis = None)   axis = None means flatten array
 # print(new_arr)
 
 # for 2d array
+# import numpy as np
+
+# arr_2d = np.array([[1,2,3],[4,5,6]])
+
+# # new_arr_2d = np.delete(arr_2d, 1, axis = None)
+# new_arr_2d = np.delete(arr_2d, 1, axis = 1)
+
+# print(new_arr_2d)
+
+# stacking
+""" 
+vertically = vstack() = row wise
+horizontally = hstack() = cplumn wise
+"""
+# import numpy as np
+
+# arr1 = np.array([1,2,3])
+# arr2 = np.array([4,5,6])
+
+# print(np.vstack((arr1, arr2)))
+# print(np.hstack((arr1, arr2)))
+
+# splitting
+""" 
+np.split()
+equal
+
+np.hsplit()
+np.vsplit()
+"""
 import numpy as np
 
-arr_2d = np.array([[1,2,3],[4,5,6]])
+arr = np.array([1,2,3,4,5,6,7,8])
 
-# new_arr_2d = np.delete(arr_2d, 1, axis = None)
-new_arr_2d = np.delete(arr_2d, 1, axis = 1)
-
-print(new_arr_2d)
+print(np.split(arr, 4))
