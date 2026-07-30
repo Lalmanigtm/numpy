@@ -18,7 +18,7 @@ result = arr1 + arr2
 print(result)
 # in this if we add millions od data it will not be slow as python loop.result
 
-"""
+
 # another example:
 import numpy as np
 
@@ -26,7 +26,7 @@ arr1 = np.array([1,2,3])
 multipled = arr1 * 3
 
 print(multipled)
-
+"""
 """
 # Broadcasting VS Vectorization:
 Broadcasting: it expand smaller array to large array to match .|| faster than loop. || eg: 1d ==> 2d .
